@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://7oeqdu22e1q5"]
+[gd_scene load_steps=4 format=3 uid="uid://7oeqdu22e1q5"]
 
 [ext_resource type="TileSet" uid="uid://b6ahcd27jnf2v" path="res://Rooms/TileSet.tres" id="1"]
 [ext_resource type="Script" path="res://Rooms/Room.gd" id="2"]
+[ext_resource type="AudioStream" uid="uid://bbwlo3mu5oal3" path="res://Audio/door.mp3" id="3_k5vs3"]
 
 [node name="Room" type="Node2D"]
 script = ExtResource("2")
@@ -30,5 +31,8 @@ format = 2
 [node name="PlayerDetector" type="Area2D" parent="."]
 collision_layer = 0
 collision_mask = 2
+
+[node name="door" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_k5vs3")
 
 [connection signal="body_entered" from="PlayerDetector" to="." method="_on_PlayerDetector_body_entered"]

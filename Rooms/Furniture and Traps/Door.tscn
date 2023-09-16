@@ -1,8 +1,9 @@
-[gd_scene load_steps=25 format=3 uid="uid://r88elkkvv60o"]
+[gd_scene load_steps=26 format=3 uid="uid://r88elkkvv60o"]
 
 [ext_resource type="Script" path="res://Rooms/Furniture and Traps/Door.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://bebupc443w3u" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/tiles/wall/door_spritesheet.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://b68bxf20bccdo" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/tiles/wall/door_fullyopen.png" id="3"]
+[ext_resource type="AudioStream" uid="uid://bbwlo3mu5oal3" path="res://Audio/door.mp3" id="4_27nl1"]
 
 [sub_resource type="AtlasTexture" id="1"]
 atlas = ExtResource("2")
@@ -203,3 +204,7 @@ shape = SubResource("18")
 
 [node name="LightOccluder2D" type="LightOccluder2D" parent="."]
 occluder = SubResource("19")
+
+[node name="door" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_27nl1")
+volume_db = 9.314

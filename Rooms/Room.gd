@@ -17,7 +17,7 @@ var num_enemies: int
 @onready var door_container: Node2D = get_node("Doors")
 @onready var enemy_positions_container: Node2D = get_node("EnemyPositions")
 @onready var player_detector: Area2D = get_node("PlayerDetector")
-
+@onready var door = $door
 
 func _ready() -> void:
 	num_enemies = enemy_positions_container.get_child_count()

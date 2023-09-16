@@ -1,7 +1,11 @@
 res://default_env.tres
-res://Game.tscn
+res://Characters/Player/Player.tscn
 res://Rooms/TileSet.tres
+res://Characters/Character.gd
 res://Characters/Enemies/Enemy.tscn
 res://Characters/Enemies/Goblin/Goblin.tscn
-res://Characters/Player/Player.tscn
-res://Characters/Character.gd
+res://Rooms/Furniture and Traps/Door.gd
+res://Rooms/Room0.tscn
+res://Rooms/Room.gd
+res://Rooms/Room.tscn
+res://Rooms/Furniture and Traps/Door.tscn
