@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://dftvfv1jceskv"]
+[gd_scene load_steps=32 format=3 uid="uid://dftvfv1jceskv"]
 
 [ext_resource type="PackedScene" uid="uid://bheousdjxqa14" path="res://Characters/Character.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://kfcieplqn3ap" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/heroes/knight/knight_idle_spritesheet.png" id="2"]
@@ -6,7 +6,6 @@
 [ext_resource type="Script" path="res://Characters/Player/Player.gd" id="4"]
 [ext_resource type="Script" path="res://Characters/Player/PlayerFSM.gd" id="5"]
 [ext_resource type="PackedScene" uid="uid://bn6jjdha1ecvj" path="res://Weapons/Sword.tscn" id="6"]
-[ext_resource type="AudioStream" path="res://Audio/crossbow.mp3" id="8_g7m7k"]
 [ext_resource type="Texture2D" uid="uid://5s650l0opflc" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/effects (new)/enemy_afterdead_explosion_anim_spritesheet.png" id="9"]
 [ext_resource type="AudioStream" uid="uid://b4r68m25xq00m" path="res://Audio/punch.mp3" id="9_wltem"]
 
@@ -348,7 +347,6 @@ libraries = {
 position = Vector2(0, 6)
 
 [node name="Crossbow" type="AudioStreamPlayer2D" parent="." index="7"]
-stream = ExtResource("8_g7m7k")
 
 [node name="punch" type="AudioStreamPlayer" parent="." index="8"]
 stream = ExtResource("9_wltem")

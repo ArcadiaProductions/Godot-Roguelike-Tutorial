@@ -3,15 +3,5 @@ res://Game.tscn
 res://Rooms/TileSet.tres
 res://Characters/Enemies/Enemy.tscn
 res://Characters/Enemies/Goblin/Goblin.tscn
-res://Rooms/Room.tscn
 res://Characters/Player/Player.tscn
-res://Weapons/Weapon.tscn
-res://Characters/Enemies/Goblin/ThrowableKnife.tscn
-res://Weapons/Sword.tscn
-res://Weapons/Crossbow.tscn
-res://Weapons/BattleAxe.tscn
-res://Weapons/WarHammer.tscn
 res://Characters/Character.gd
-res://Characters/Player/Player.gd
-res://Characters/Enemies/Enemy.gd
-res://Rooms/Furniture and Traps/Door.gd
