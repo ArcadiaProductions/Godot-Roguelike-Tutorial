@@ -6,6 +6,7 @@ enum {UP, DOWN}
 
 var current_weapon: Node2D
 
+
 signal weapon_switched(prev_index, new_index)
 signal weapon_picked_up(weapon_texture)
 signal weapon_droped(index)
@@ -13,7 +14,6 @@ signal weapon_droped(index)
 @onready var parent: Node2D = get_parent()
 @onready var weapons: Node2D = get_node("Weapons")
 @onready var dust_position: Marker2D = get_node("DustPosition")
-
 
 func _ready() -> void:
 	emit_signal("weapon_picked_up", weapons.get_child(0).get_texture())

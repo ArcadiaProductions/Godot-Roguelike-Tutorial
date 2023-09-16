@@ -1,6 +1,7 @@
 @icon("res://Art/v1.1 dungeon crawler 16x16 pixel pack/heroes/knight/knight_idle_anim_f0.png")
 
 extends CharacterBody2D
+
 class_name Character
 
 const HIT_EFFECT_SCENE: PackedScene = preload("res://Characters/HitEffect.tscn")
@@ -19,6 +20,9 @@ signal hp_changed(new_hp)
 @onready var state_machine: Node = get_node("FiniteStateMachine")
 @onready var animated_sprite: AnimatedSprite2D = get_node("AnimatedSprite2D")
 
+@onready var punch = $punch
+
+
 var mov_direction: Vector2 = Vector2.ZERO
 
 
@@ -36,6 +40,10 @@ func move() -> void:
 func take_damage(dam: int, dir: Vector2, force: int) -> void:
 	if state_machine.state != state_machine.states.hurt and state_machine.state != state_machine.states.dead:
 		_spawn_hit_effect()
+		print('take damage')
+		if $punch and $punch.playing == false:
+			$punch.play()
+		pass
 		self.hp -= dam
 		if name == "Player":
 			SavedData.hp = hp
