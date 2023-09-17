@@ -42,9 +42,9 @@ func take_damage(dam: int, dir: Vector2, force: int) -> void:
 		_spawn_hit_effect()
 
 		self.hp -= dam
-		if name == "Player":
-			if $punch and $punch.playing == false:
-				$punch.play()
+		# if name == "Player":
+		if $punch and $punch.playing == false:
+			$punch.play()
 			SavedData.hp = hp
 			if hp == 0:
 				SceneTransistor.start_transition_to("res://Game.tscn")

@@ -1,0 +1,43 @@
+res://Audio/music_score.tscn::6a4aede199a79afeba0be399a42bb229::1694923521::res://.godot/exported/133200997/export-d918264313b24caa4870d1b94ecc85b5-music_score.scn
+res://Autoloads/SceneTransistor.tscn::187ed0d7c98398359e31e3f6e323c0b0::1694890768::res://.godot/exported/133200997/export-52f0e9d8d79c9b34bf626a48bc5d827e-SceneTransistor.scn
+res://Characters/Enemies/Bosses/SlimeBoss.tscn::39323704465ab6c5108628be62155b01::1694890768::res://.godot/exported/133200997/export-47d282d9b6fff4aef66ba73b31663a8a-SlimeBoss.scn
+res://Characters/Enemies/Flying Creature/FlyingCreature.tscn::886e1b0288b99fbdbd9ec6fc4539b2fa::1694890768::res://.godot/exported/133200997/export-9d72b5bae063066784d90ccff89d194b-FlyingCreature.scn
+res://Characters/Enemies/Goblin/Goblin.tscn::8ceca9e022d98d53d16972f534655a28::1694923521::res://.godot/exported/133200997/export-a1570f1fdca5c059c7a55546c7837c5b-Goblin.scn
+res://Characters/Enemies/Goblin/ThrowableKnife.tscn::a5620ce35283bc0860d49c687f6d849d::1694894435::res://.godot/exported/133200997/export-bb322a090413f4aa541d8335d78edef8-ThrowableKnife.scn
+res://Characters/Enemies/Enemy.tscn::cebf263616f7f3370e9ba39a83b688d8::1694923521::res://.godot/exported/133200997/export-ffb739a22a89900781786bc78f097421-Enemy.scn
+res://Characters/Enemies/SpawnExplosion.tscn::e07bedbce1e8f88dee5df5dd8a646828::1694890768::res://.godot/exported/133200997/export-b9960785a62c2410c18af78391c3ca1d-SpawnExplosion.scn
+res://Characters/Player/Dust.tscn::9ea795b2c1f29b084ae8c6a58890b3ae::1694890768::res://.godot/exported/133200997/export-579648a6d065c713b8f696b01ba05d74-Dust.scn
+res://Characters/Player/Player.tscn::10207de0174ce63e4f5305290e8d2322::1694923521::res://.godot/exported/133200997/export-a31534eaacc0fc935569c6aee21298f8-Player.scn
+res://Characters/Character.tscn::d37da0b1a9bc0d0624c2b85c13631864::1694923521::res://.godot/exported/133200997/export-5c3e48d7cb12ef833c40bfc192f452b2-Character.scn
+res://Characters/HitEffect.tscn::e622934b03bb18d77a53473784f364a3::1694890768::res://.godot/exported/133200997/export-66badf11b72c80b7ed8a111f144d027f-HitEffect.scn
+res://Items/HealthPotion.tscn::31eff38d045bee52e6bd092f39dff56f::1694890768::res://.godot/exported/133200997/export-7a709c6bd6d3338585271e13fc303eeb-HealthPotion.scn
+res://Rooms/Furniture and Traps/Door.tscn::9e2f99618e11a23fc8e876a20e3189b3::1694923521::res://.godot/exported/133200997/export-4e38c19ea44c42a7cc7a7df87220b3a2-Door.scn
+res://Rooms/Furniture and Traps/Spikes.tscn::34d4edb3c2773f310130b7df67026737::1694890768::res://.godot/exported/133200997/export-86f870adedd5b3a515eb149d0e5556d6-Spikes.scn
+res://Rooms/Furniture and Traps/Stairs.tscn::ad7d44fd11c27fe3d55d7ad43d03834e::1694890768::res://.godot/exported/133200997/export-3d56cdb3b96a6e5937b5c5f5750eda36-Stairs.scn
+res://Rooms/Furniture and Traps/Torch.tscn::9a2cb74906dc7a0742597111c6971780::1694890768::res://.godot/exported/133200997/export-591ff7137f4b37f2cbc6cb5865353f89-Torch.scn
+res://Rooms/EndRoom0.tscn::54a531bf823a12bb4e2ba4ba11a63c82::1694890768::res://.godot/exported/133200997/export-93f4b3fb5fb0d036e48e7ff02e98cc5a-EndRoom0.scn
+res://Rooms/Room0.tscn::9bf417fbe25cd86b756ca5c63c4a77ce::1694923521::res://.godot/exported/133200997/export-05264450fd41ed4df861867cdbfd8100-Room0.scn
+res://Rooms/Room1.tscn::2a4b49935bc8d6cc078634c2be910b57::1694890768::res://.godot/exported/133200997/export-5255aa088d28e50bb2fabacbf27b21d3-Room1.scn
+res://Rooms/Room2.tscn::88bafa47f16aa1b209fbf06a75e5e588::1694890768::res://.godot/exported/133200997/export-c7b4a6fdb666e3108c7e4d9c966c4c7f-Room2.scn
+res://Rooms/Room3.tscn::fbf5e261cfb9e0d625b1c7f8d572ee99::1694890768::res://.godot/exported/133200997/export-3af457357c2ba1e93b506afdc9ed4dfb-Room3.scn
+res://Rooms/Room4.tscn::fd12292f2202b77c8f05c6ae3229cf48::1694890768::res://.godot/exported/133200997/export-b0e57bff814089b8cf6731d62b4dc6ec-Room4.scn
+res://Rooms/Room.tscn::424b69f891b73c1f15a71e2e78d09edd::1694923521::res://.godot/exported/133200997/export-1c608944dc5f9ec63b9be56209156b8e-Room.scn
+res://Rooms/RoomWithWeapon0.tscn::7b3d9889a8ee4e28c7cd47b11f1bbaed::1694890768::res://.godot/exported/133200997/export-2c8202182fac2928f7e0c840a4283e0f-RoomWithWeapon0.scn
+res://Rooms/RoomWithWeapon.tscn::7bb2a4e9067fc601f3f1adecd8e7e890::1694890768::res://.godot/exported/133200997/export-c6ebe67a63de4c2c3a219b457ab8521c-RoomWithWeapon.scn
+res://Rooms/SlimeBossRoom.tscn::a2afb3b7baec1559b3cc324c4c274376::1694890768::res://.godot/exported/133200997/export-ec540dcfe38911eacd4bae2db1e23bec-SlimeBossRoom.scn
+res://Rooms/SpawnRoom0.tscn::98fef2c3d476c5dcc0e2a0cc86fdd082::1694890768::res://.godot/exported/133200997/export-e8c03e02c2fdee89c7702f382a68a935-SpawnRoom0.scn
+res://Rooms/SpawnRoom1.tscn::9a2623e5135c993aaeb51a5ce1c58e44::1694890768::res://.godot/exported/133200997/export-2dd4a8a5e9bac3bf3714e33e38c8c5ec-SpawnRoom1.scn
+res://Rooms/SpecialRoom0.tscn::9933ff79b081623cff8e3e4c041bbfb6::1694890768::res://.godot/exported/133200997/export-ed9ae6bce4322bc5368fa588a286e51c-SpecialRoom0.scn
+res://Rooms/SpecialRoom1.tscn::4d4d1817335eca729984605a9ca49e98::1694890768::res://.godot/exported/133200997/export-28b0320e7d9986c0cb9380aca254c1fd-SpecialRoom1.scn
+res://Rooms/TileSet.tres::38e3dfe59f8ccafe991e6b0656c01021::1694921366::res://.godot/exported/133200997/export-04704a50580c4053d18631894dd64e69-TileSet.res
+res://Weapons/Arrow.tscn::9315af594c67f58f45a9a0f63b6ad1ba::1694890768::res://.godot/exported/133200997/export-a919e5bfa4e696aa58e42cc4baa9c1b4-Arrow.scn
+res://Weapons/BattleAxe.tscn::12be4c01fe0af42d7e0c5d5fa5aa33a2::1694894435::res://.godot/exported/133200997/export-302f9dfde981bd53cc6e692d617df1e6-BattleAxe.scn
+res://Weapons/Crossbow.tscn::c433a53ce44a360cdd355af5e229e526::1694923521::res://.godot/exported/133200997/export-e99017a22be23f2f98ce16155e21599c-Crossbow.scn
+res://Weapons/Projectile.tscn::590eea3e6b00e51b996f077d4eb74d96::1694890768::res://.godot/exported/133200997/export-79479b533008dac7a3c020ffae333622-Projectile.scn
+res://Weapons/Sword.tscn::b2e0e8fbea9c0061a1fc3ae26abfea05::1694923521::res://.godot/exported/133200997/export-181700d114e0e4e8834a2df1bcc4e332-Sword.scn
+res://Weapons/sword_active_ability.tres::4196521ce329735271694fa36cb05016::1694890768::res://.godot/exported/133200997/export-b16e4dcfd82d22c73dd98224127d0579-sword_active_ability.res
+res://Weapons/WarHammer.tscn::1cb050c3f46c5f415a0be04402b45cc9::1694894435::res://.godot/exported/133200997/export-b85f8756b8e709e0eb21035d20e04be5-WarHammer.scn
+res://Weapons/Weapon.tscn::2b23f3cba9de54ee92e9592d7d530d06::1694923521::res://.godot/exported/133200997/export-ec8177c03934bc0ee9509dda59b7b687-Weapon.scn
+res://default_env.tres::1cc56849ca6113f0503e227145f199fc::1694923521::res://.godot/exported/133200997/export-7cf3fd67ad9f55210191d77b582b8209-default_env.res
+res://Game.tscn::2fce9fc0a5ee6a6d3e2dcde1833f2ece::1694923521::res://.godot/exported/133200997/export-6455994a605b35b7d96f8362f3055c4a-Game.scn
+res://InventoryItem.tscn::b3f6121e139f039d62540a30f0930ef2::1694890768::res://.godot/exported/133200997/export-374a583b51be5730b62c677429aef537-InventoryItem.scn

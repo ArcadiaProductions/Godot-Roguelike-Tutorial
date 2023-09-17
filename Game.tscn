@@ -1,7 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://u6okdsefflug"]
+[gd_scene load_steps=7 format=3 uid="uid://u6okdsefflug"]
 
 [ext_resource type="PackedScene" uid="uid://dftvfv1jceskv" path="res://Characters/Player/Player.tscn" id="2"]
-[ext_resource type="Script" path="res://Game.gd" id="3"]
 [ext_resource type="Script" path="res://Rooms.gd" id="4"]
 [ext_resource type="Texture2D" uid="uid://df3cenyvvexih" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/ui (new)/health_ui.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://c535uh5i7hsc8" path="res://Art/progress bar.png" id="6"]
@@ -16,7 +15,6 @@ border_width_bottom = 2
 
 [node name="Game" type="Node2D"]
 texture_filter = 1
-script = ExtResource("3")
 
 [node name="UI" type="CanvasLayer" parent="."]
 script = ExtResource("7")

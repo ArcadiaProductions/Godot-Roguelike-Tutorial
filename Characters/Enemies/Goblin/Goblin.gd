@@ -13,7 +13,7 @@ var distance_to_player: float
 
 @onready var attack_timer: Timer = get_node("AttackTimer")
 @onready var aim_raycast: RayCast2D = get_node("AimRayCast")
-
+@onready var bow = $bow
 
 func _on_PathTimer_timeout() -> void:
 	if is_instance_valid(player):
@@ -27,6 +27,7 @@ func _on_PathTimer_timeout() -> void:
 			if can_attack and state_machine.state == state_machine.states.idle and not aim_raycast.is_colliding():
 				can_attack = false
 				_throw_knife()
+				$bow_goblin.play()
 				attack_timer.start()
 	else:
 		mov_direction = Vector2.ZERO

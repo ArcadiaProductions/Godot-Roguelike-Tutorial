@@ -19,6 +19,9 @@ var tween: Tween = null
 @onready var ui: CanvasLayer = get_node("UI")
 @onready var ability_icon: TextureProgressBar = ui.get_node("AbilityIcon")
 
+@onready var sword_swing = $sword_swing
+@onready var bow_goblin = $bow_goblin
+@onready var bow = $bow
 
 func _ready() -> void:
 	if not on_floor:
@@ -29,12 +32,28 @@ func _ready() -> void:
 	connect("hidden", _on_hide)
 
 
+func play_sound(sound: String) -> void:
+	get_node("AudioStreamPlayer2D").play(sound)
+
+
 func get_input() -> void:
 	if Input.is_action_just_pressed("ui_attack") and not animation_player.is_playing():
 		animation_player.play("charge")
 	elif Input.is_action_just_released("ui_attack"):
 		if animation_player.is_playing() and animation_player.current_animation == "charge":
 			animation_player.play("attack")
+			# print('attacking...')
+			# print('weapon: ' + str(self) + " " + name)
+			if name == "Sword":
+				# print('playing sword swing sound fx')
+				# if $sword_swing and $sword_swing.playing == false:
+				$sword_swing.play()
+			if name == "Crossbow":
+				if $bow_goblin and $bow_goblin.playing == false:
+					$bow_goblin.play()
+				# print('bow sound')
+				if $bow:
+					$bow.play()
 		elif charge_particles.emitting:
 			animation_player.play("strong_attack")
 	elif Input.is_action_just_pressed("ui_active_ability") and animation_player.has_animation("active_ability") and not is_busy() and can_active_ability:

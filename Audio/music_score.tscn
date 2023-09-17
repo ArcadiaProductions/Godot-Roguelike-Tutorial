@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://6li4ps5c628f"]
+
+[ext_resource type="Script" path="res://Audio/MusicScore.gd" id="1_a0l3r"]
+[ext_resource type="AudioStream" uid="uid://6fv5xfj23u7a" path="res://Audio/dungeon.mp3" id="2_gttp3"]
+
+[node name="music_score" type="Node2D"]
+script = ExtResource("1_a0l3r")
+
+[node name="dungeon_ambiance" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_gttp3")
